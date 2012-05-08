@@ -26,6 +26,8 @@ Playing is simple, just follow the instructions. The underscore is where your cu
   For a grand total of 6 keystrokes.
 
  - Don't count `ESC` if it is the last keystroke. From the example above, no need to count `ESC` as the last keystroke.
+ - Pressing `SHIFT` + any key counts as one, not two. If you use `:`, that counts as one keystroke, and not two(`SHIFT` + `;`)
+
  - Try to count out loud as you type and double check your count, but don't obsess on it.
 
  - Have fun!
