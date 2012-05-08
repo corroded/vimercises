@@ -1,5 +1,3 @@
-_
-
 a
 aa
 aaa
@@ -9,3 +7,6 @@ aa
 a
 
 Change the 'aaaa' to 'xxxx'
+
+
+6 strokes

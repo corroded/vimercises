@@ -1,0 +1,9 @@
+{'this' => 'is', 'a' => 'long', 'json' => 'string', 'sort' => 'of'}
+
+Modify the string above so that
+{
+  'it' => 'looks',
+  'like' => 'this'
+}
+
+20 strokes

@@ -1,3 +1,5 @@
 cAMELcASE
 
 Change the text to camel case.
+
+2 strokes
