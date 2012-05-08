@@ -1,0 +1,3 @@
+cAMELcASE
+
+Change the text to camel case.
