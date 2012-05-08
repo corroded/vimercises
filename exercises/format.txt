@@ -5,3 +5,5 @@ Modify the string above so that
   'it' => 'looks',
   'like' => 'this'
 }
+
+20 strokes
