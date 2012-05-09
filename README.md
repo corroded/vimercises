@@ -30,4 +30,6 @@ Playing is simple, just follow the instructions. The underscore is where your cu
 
  - Try to count out loud as you type and double check your count, but don't obsess on it.
 
+ - Remember to only use PLAIN Vim commands. No using plugins like surround, etc.
+
  - Have fun!
