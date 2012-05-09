@@ -2,6 +2,7 @@
 %html
   %head
     %meta{:charset => "utf-8"}/
+    %title Vimercises by corroded
     %link{:href => "stylesheets/screen.css", :media => "screen, projection", :rel => "stylesheet", :type => "text/css"}/
     %link{:href => "stylesheets/print.css", :media => "print", :rel => "stylesheet", :type => "text/css"}/
     /[if IE]
@@ -9,20 +10,22 @@
 
     %title Test
   %body
-    #main
+    %section#container
       %header
-        %h1 John Doe Photograghy
+        %h1 Vimercises by corroded
+
       %nav{:role => "navigation"}
         %ul
           %li
-            %a{:href => "/"} Home
+            %a{:href => "/"} About
           %li
-            %a{:href => "/portfolio/"} Portfolio
-          %li
-            %a{:href => "/about"} About
-          %li
-            %a{:href => "/contact"} Contact
+            %a{:href => "/exercises.html"} Exercises
 
-      {{ content }}
+      %section#main-content
+        {{ content }}
+
       %footer
-        %p @copy; John Doe Photography 2011 | All Rights Reserved.
+        %p
+          This project is maintained by
+          %a{:href => "http://github.com/corroded"} corroded
+
