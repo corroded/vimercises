@@ -4,7 +4,7 @@ require 'haml'
 
 desc 'Pre-compile the files'
 task :pre_compile do
-  puts "Compiling HAML files..."
+  puts "\nCompiling HAML files..."
   file_list = Dir.glob("**/*.haml")
 
   file_list.each do |file|
@@ -12,10 +12,10 @@ task :pre_compile do
     engine = Haml::Engine.new(file_contents)
     output = engine.render
     output_file_name = file.gsub(".haml", ".html")
-    puts "OUTPUT FILE NAME: #{output_file_name}"
+    puts " *   Generating: #{output_file_name}"
     File.open(output_file_name, "w+") do |f|
       f.write(output)
     end
   end
-  puts "HAML files compiled!"
+  puts "HAML files compiled!\n\n"
 end
