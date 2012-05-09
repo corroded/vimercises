@@ -66,3 +66,97 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+/* line 9, stylesheets/sass/screen.sass */
+body {
+  font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;
+  background: red;
+  color: #ececec;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 16, stylesheets/sass/screen.sass */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 20, stylesheets/sass/screen.sass */
+a {
+  color: #cccccc;
+  text-decoration: none;
+}
+/* line 23, stylesheets/sass/screen.sass */
+a:hover {
+  color: #ececec;
+  text-decoration: underline;
+}
+
+/* line 27, stylesheets/sass/screen.sass */
+#main {
+  width: 960px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* line 32, stylesheets/sass/screen.sass */
+header {
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+/* line 36, stylesheets/sass/screen.sass */
+h1 {
+  margin: 0;
+}
+
+/* line 39, stylesheets/sass/screen.sass */
+nav ul, ul.entries {
+  list-style-type: none;
+}
+
+/* line 42, stylesheets/sass/screen.sass */
+nav li a {
+  float: left;
+  margin: 5px;
+}
+
+/* line 46, stylesheets/sass/screen.sass */
+.content {
+  padding: 10px;
+}
+
+/* line 50, stylesheets/sass/screen.sass */
+ul.entries li {
+  position: relative;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ececec;
+  width: 600px;
+}
+/* line 56, stylesheets/sass/screen.sass */
+ul.entries img {
+  width: 600px;
+}
+/* line 58, stylesheets/sass/screen.sass */
+ul.entries li h3 {
+  position: absolute;
+  bottom: -18px;
+  left: 17px;
+  font-size: 2em;
+}
+/* line 63, stylesheets/sass/screen.sass */
+ul.entries a {
+  color: #ececec;
+}
+/* line 65, stylesheets/sass/screen.sass */
+ul.entries a:hover {
+  color: white;
+}
+
+/* line 68, stylesheets/sass/screen.sass */
+footer {
+  font-size: 0.65em;
+  text-align: center;
+}
