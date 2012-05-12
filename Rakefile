@@ -9,13 +9,14 @@ task :pre_compile do
 
   file_list.each do |file|
     file_contents = File.open(file, "r").read
-    engine = Haml::Engine.new(file_contents)
-    output = engine.render
     output_file_name = file.gsub(".haml", ".html")
     puts " *   Generating: #{output_file_name}"
+    engine = Haml::Engine.new(file_contents)
+    output = engine.render
     File.open(output_file_name, "w+") do |f|
       f.write(output)
     end
+    puts " * #{output_file_name} generated!"
   end
   puts "HAML files compiled!\n\n"
 end
