@@ -2,3 +2,8 @@
 layout: default
 ---
 <h2>Testing ground example</h2>
+<ul>
+  {% for exercise in site.exercises %}
+    <li>{{ exercise.title }}</li>
+  {% endfor %}
+</ul>

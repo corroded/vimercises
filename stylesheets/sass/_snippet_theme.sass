@@ -1,0 +1,206 @@
+/*---------- acid Styles ---------
+
+.sh_acid
+  background: none
+  padding: 0
+  margin: 0
+  border: 0 none
+  .sh_sourceCode
+    background-color: #eee
+    color: #000
+    font-weight: normal
+    font-style: normal
+    .sh_keyword
+      color: #bb7977
+      font-weight: bold
+      font-style: normal
+    .sh_type
+      color: #8080c0
+      font-weight: bold
+      font-style: normal
+    .sh_string, .sh_regexp
+      color: #a68500
+      font-weight: normal
+      font-style: normal
+    .sh_specialchar
+      color: #f0f
+      font-weight: bold
+      font-style: normal
+    .sh_comment
+      color: #ff8000
+      font-weight: normal
+      font-style: normal
+    .sh_number
+      color: #800080
+      font-weight: bold
+      font-style: normal
+    .sh_preproc
+      color: #0080c0
+      font-weight: bold
+      font-style: normal
+    .sh_symbol
+      color: #ff0080
+      font-weight: bold
+      font-style: normal
+    .sh_function
+      color: #046
+      font-weight: normal
+      font-style: normal
+    .sh_cbracket
+      color: #ff0080
+      font-weight: bold
+      font-style: normal
+    .sh_url
+      color: #a68500
+      font-weight: normal
+      font-style: normal
+    .sh_date, .sh_time, .sh_file
+      color: #bb7977
+      font-weight: bold
+      font-style: normal
+    .sh_ip, .sh_name
+      color: #a68500
+      font-weight: normal
+      font-style: normal
+    .sh_variable
+      color: #0080c0
+      font-weight: normal
+      font-style: normal
+    .sh_oldfile
+      color: #f0f
+      font-weight: bold
+      font-style: normal
+    .sh_newfile
+      color: #a68500
+      font-weight: normal
+      font-style: normal
+    .sh_difflines
+      color: #bb7977
+      font-weight: bold
+      font-style: normal
+    .sh_selector
+      color: #0080c0
+      font-weight: normal
+      font-style: normal
+    .sh_property
+      color: #bb7977
+      font-weight: bold
+      font-style: normal
+    .sh_value
+      color: #a68500
+      font-weight: normal
+      font-style: normal
+
+/*-------- Snippet Base Styles ----------
+
+.snippet-wrap
+  position: relative
+
+*
+  &:first-child+html .snippet-wrap, html .snippet-wrap
+    display: inline-block
+
+.snippet-reveal
+  text-decoration: underline
+
+.snippet-wrap
+  .snippet-menu
+    position: absolute
+    top: 10px
+    right: 15px
+    font-size: .9em
+    z-index: 1
+    background-color: transparent
+  .snippet-hide
+    position: absolute
+    top: 10px
+    right: 15px
+    font-size: .9em
+    z-index: 1
+    background-color: transparent
+    top: auto
+    bottom: 10px
+
+*
+  &:first-child+html .snippet-wrap .snippet-hide, html .snippet-wrap .snippet-hide
+    bottom: 25px
+
+.snippet-wrap
+  .snippet-menu pre, .snippet-hide pre
+    background-color: transparent
+    margin: 0
+    padding: 0
+  .snippet-menu a, .snippet-hide a
+    padding: 0 5px
+    text-decoration: underline
+  pre
+    &.sh_sourceCode
+      padding: 0
+      line-height: 1.8em
+      overflow: auto
+      position: relative
+      +border-radius(15px)
+      box-shadow: 2px 2px 5px #000
+      -moz-box-shadow: 2px 2px 5px #000
+      -webkit-box-shadow: 2px 2px 5px #000
+      margin: 10px 0
+    &.snippet-textonly
+      padding: 2em
+
+*
+  &:first-child+html .snippet-wrap pre.snippet-formatted, html .snippet-wrap pre.snippet-formatted
+    padding: 2em 1em
+
+.snippet-reveal pre.sh_sourceCode
+  padding: .5em 1em
+  text-align: right
+
+.snippet-wrap
+  .snippet-num li
+    padding-left: 1.5em
+  .snippet-no-num
+    list-style: none
+    padding: .6em 1em
+    margin: 0
+    li
+      list-style: none
+      padding-left: 0
+  .snippet-num
+    margin: 1em 0 1em 1em
+    padding-left: 3em
+    li
+      list-style: decimal-leading-zero outside none
+  .snippet-no-num li.box
+    padding: 0 6px
+    margin-left: -6px
+  .snippet-num li.box
+    border: 1px solid
+    list-style-position: inside
+    margin-left: -3em
+    padding-left: 6px
+
+*
+  &:first-child+html .snippet-wrap .snippet-num li.box, html .snippet-wrap .snippet-num li.box
+    margin-left: -2.4em
+
+.snippet-wrap
+  li
+    &.box-top
+      border-width: 1px 1px 0 !important
+    &.box-bot
+      border-width: 0 1px 1px !important
+    &.box-mid
+      border-width: 0 1px !important
+  .snippet-num li .box-sp
+    width: 18px
+    display: inline-block
+
+*
+  &:first-child+html .snippet-wrap .snippet-num li .box-sp, html .snippet-wrap .snippet-num li .box-sp
+    width: 27px
+
+.snippet-wrap .snippet-no-num li
+  &.box
+    border: 1px solid
+  .box-sp
+    display: none
