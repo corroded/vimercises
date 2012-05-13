@@ -157,11 +157,11 @@ nav ul > li a:hover {
   width: 700px;
 }
 
-/* line 1, stylesheets/sass/_footer.sass */
+/* line 1, sass/_footer.sass */
 footer {
   display: inline;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 940px;
+  width: 700px;
 }
