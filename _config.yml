@@ -1,2 +1,4 @@
 auto: true
 permalink: /exercises/:title
+server: true
+baseurl: /vimercises
