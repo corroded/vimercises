@@ -12,6 +12,6 @@ The aim of this is to test your Vim knowledge and to allow beginners to practice
 
 ## CONTRIBUTE
 
-  - Create your own exercises(I usually come up with exercises while coding them - like the refactoring and block exercises)
-  - Just follow the format of adding the **stroke_count** and a descriptive/catchy/misleading title then the instructions.
-  - Create pull request and share the Vim love
+ - Create your own exercises(I usually come up with exercises while coding them - like the refactoring and block exercises)
+ - Just follow the format of adding the **stroke_count** and a descriptive/catchy/misleading title then the instructions.
+ - Create pull request and share the Vim love
