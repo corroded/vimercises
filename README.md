@@ -20,10 +20,11 @@ Playing is simple, just follow the instructions. The underscore is where your cu
  - The maximum number of moves is just a guideline. You can go way past that(means you need more practice), or you can use half the number of moves(you can send me your solution so I can lower the guideline - with credits to you of course).
 
  - ANY keystroke is counted. If you need to type 'hello', the count breakdown would be:
-  1 for the insert `i`
-  5 for the letters `hello`
 
-  For a grand total of 6 keystrokes.
+   - 1 for the insert `i`
+   - 5 for the letters `hello`
+
+   For a grand total of 6 keystrokes.
 
  - Don't count `ESC` if it is the last keystroke. From the example above, no need to count `ESC` as the last keystroke.
  - Pressing `SHIFT` + any key counts as one, not two. If you use `:`, that counts as one keystroke, and not two(`SHIFT` + `;`)
