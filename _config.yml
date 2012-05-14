@@ -1,4 +1,4 @@
 auto: true
 permalink: /exercises/:title
 server: true
-baseurl: /vimercises
+baseurl: http://corroded.github.com/vimercises
