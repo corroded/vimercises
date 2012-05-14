@@ -1,0 +1,26 @@
+<pre><code>%tr
+  %td= raw(&quot;&lt;% line1_hello %&gt;&quot;)
+  %td= raw(&quot;&lt;% line2(world) %&gt;&quot;)
+  %td= raw(&quot;&lt;% line3_hello %&gt;&quot;)
+  %td= raw(&quot;&lt;% line4 %&gt;&quot;)
+  %td= raw(&quot;&lt;% line5_(world) %&gt;&quot;)
+
+&lt;tr&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;</code></pre>
+
+<p>Refactor this by putting the strings inside the quotes inside the <code>&lt;td&gt;</code> tags like so:</p>
+
+<pre><code>&lt;tr&gt;
+  &lt;td&gt;&lt;% line1_hello %&gt;  &lt;/td&gt;
+  &lt;td&gt;&lt;% line2(world) %&gt; &lt;/td&gt;
+  &lt;td&gt;&lt;% line3_hello %&gt;  &lt;/td&gt;
+  &lt;td&gt;&lt;% line4 %&gt;        &lt;/td&gt;
+  &lt;td&gt;&lt;% line5_(world) %&gt;&lt;/td&gt;
+&lt;/tr&gt;</code></pre>
+
+<p><em>Don&#8217;t yank and paste the example.</em></p>
