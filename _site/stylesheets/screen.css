@@ -3,7 +3,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, /Users/eumir/.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,45 +25,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, /Users/eumir/.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, /Users/eumir/.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, /Users/eumir/.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, /Users/eumir/.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, /Users/eumir/.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, /Users/eumir/.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, /Users/eumir/.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, /Users/eumir/.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -151,7 +151,14 @@ a:hover {
   color: #83a4bf;
 }
 
-/* line 81, stylesheets/sass/screen.sass */
+/* line 82, stylesheets/sass/screen.sass */
+ul li {
+  list-style-type: square;
+  list-style-position: inside;
+  margin-left: 20px;
+}
+
+/* line 89, stylesheets/sass/screen.sass */
 #container {
   margin-left: auto;
   margin-right: auto;
@@ -195,20 +202,22 @@ nav ul > li .exercises li {
   list-style-type: square;
 }
 
-/* line 1, sass/_main.sass */
+/* line 1, /Users/eumir/Projects/vimercises/stylesheets/sass/_main.sass */
 #main-content {
   display: inline;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
   width: 700px;
+  font-size: 1.2em;
+  line-height: 1.8em;
 }
-/* line 5, sass/_main.sass */
+/* line 8, /Users/eumir/Projects/vimercises/stylesheets/sass/_main.sass */
 #main-content pre code {
   font-family: "Anonymous Pro", monospace;
 }
 
-/* line 1, sass/_footer.sass */
+/* line 1, /Users/eumir/Projects/vimercises/stylesheets/sass/_footer.sass */
 footer {
   display: inline;
   float: left;
@@ -219,135 +228,135 @@ footer {
 }
 
 /*---------- acid Styles --------- */
-/* line 3, sass/_snippet_theme.sass */
+/* line 3, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .sh_acid {
   background: none;
   padding: 0;
   margin: 0;
   border: 0 none;
 }
-/* line 8, sass/_snippet_theme.sass */
+/* line 8, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .sh_acid .sh_sourceCode {
   background-color: #eeeeee;
   color: black;
   font-weight: normal;
   font-style: normal;
 }
-/* line 13, sass/_snippet_theme.sass */
+/* line 13, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .sh_acid .sh_sourceCode .sh_keyword {
   color: #bb7977;
   font-weight: bold;
   font-style: normal;
 }
-/* line 17, sass/_snippet_theme.sass */
+/* line 17, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .sh_acid .sh_sourceCode .sh_type {
   color: #8080c0;
   font-weight: bold;
   font-style: normal;
 }
-/* line 21, sass/_snippet_theme.sass */
+/* line 21, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .sh_acid .sh_sourceCode .sh_string, .sh_acid .sh_sourceCode .sh_regexp {
   color: #a68500;
   font-weight: normal;
   font-style: normal;
 }
-/* line 25, sass/_snippet_theme.sass */
+/* line 25, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .sh_acid .sh_sourceCode .sh_specialchar {
   color: fuchsia;
   font-weight: bold;
   font-style: normal;
 }
-/* line 29, sass/_snippet_theme.sass */
+/* line 29, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .sh_acid .sh_sourceCode .sh_comment {
   color: #ff8000;
   font-weight: normal;
   font-style: normal;
 }
-/* line 33, sass/_snippet_theme.sass */
+/* line 33, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .sh_acid .sh_sourceCode .sh_number {
   color: purple;
   font-weight: bold;
   font-style: normal;
 }
-/* line 37, sass/_snippet_theme.sass */
+/* line 37, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .sh_acid .sh_sourceCode .sh_preproc {
   color: #0080c0;
   font-weight: bold;
   font-style: normal;
 }
-/* line 41, sass/_snippet_theme.sass */
+/* line 41, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .sh_acid .sh_sourceCode .sh_symbol {
   color: #ff0080;
   font-weight: bold;
   font-style: normal;
 }
-/* line 45, sass/_snippet_theme.sass */
+/* line 45, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .sh_acid .sh_sourceCode .sh_function {
   color: #004466;
   font-weight: normal;
   font-style: normal;
 }
-/* line 49, sass/_snippet_theme.sass */
+/* line 49, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .sh_acid .sh_sourceCode .sh_cbracket {
   color: #ff0080;
   font-weight: bold;
   font-style: normal;
 }
-/* line 53, sass/_snippet_theme.sass */
+/* line 53, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .sh_acid .sh_sourceCode .sh_url {
   color: #a68500;
   font-weight: normal;
   font-style: normal;
 }
-/* line 57, sass/_snippet_theme.sass */
+/* line 57, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .sh_acid .sh_sourceCode .sh_date, .sh_acid .sh_sourceCode .sh_time, .sh_acid .sh_sourceCode .sh_file {
   color: #bb7977;
   font-weight: bold;
   font-style: normal;
 }
-/* line 61, sass/_snippet_theme.sass */
+/* line 61, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .sh_acid .sh_sourceCode .sh_ip, .sh_acid .sh_sourceCode .sh_name {
   color: #a68500;
   font-weight: normal;
   font-style: normal;
 }
-/* line 65, sass/_snippet_theme.sass */
+/* line 65, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .sh_acid .sh_sourceCode .sh_variable {
   color: #0080c0;
   font-weight: normal;
   font-style: normal;
 }
-/* line 69, sass/_snippet_theme.sass */
+/* line 69, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .sh_acid .sh_sourceCode .sh_oldfile {
   color: fuchsia;
   font-weight: bold;
   font-style: normal;
 }
-/* line 73, sass/_snippet_theme.sass */
+/* line 73, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .sh_acid .sh_sourceCode .sh_newfile {
   color: #a68500;
   font-weight: normal;
   font-style: normal;
 }
-/* line 77, sass/_snippet_theme.sass */
+/* line 77, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .sh_acid .sh_sourceCode .sh_difflines {
   color: #bb7977;
   font-weight: bold;
   font-style: normal;
 }
-/* line 81, sass/_snippet_theme.sass */
+/* line 81, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .sh_acid .sh_sourceCode .sh_selector {
   color: #0080c0;
   font-weight: normal;
   font-style: normal;
 }
-/* line 85, sass/_snippet_theme.sass */
+/* line 85, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .sh_acid .sh_sourceCode .sh_property {
   color: #bb7977;
   font-weight: bold;
   font-style: normal;
 }
-/* line 89, sass/_snippet_theme.sass */
+/* line 89, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .sh_acid .sh_sourceCode .sh_value {
   color: #a68500;
   font-weight: normal;
@@ -355,22 +364,22 @@ footer {
 }
 
 /*-------- Snippet Base Styles ---------- */
-/* line 96, sass/_snippet_theme.sass */
+/* line 96, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .snippet-wrap {
   position: relative;
 }
 
-/* line 100, sass/_snippet_theme.sass */
+/* line 100, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 *:first-child + html .snippet-wrap, * html .snippet-wrap {
   display: inline-block;
 }
 
-/* line 103, sass/_snippet_theme.sass */
+/* line 103, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .snippet-reveal {
   text-decoration: underline;
 }
 
-/* line 107, sass/_snippet_theme.sass */
+/* line 107, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .snippet-wrap .snippet-menu {
   position: absolute;
   top: 10px;
@@ -379,7 +388,7 @@ footer {
   z-index: 1;
   background-color: transparent;
 }
-/* line 114, sass/_snippet_theme.sass */
+/* line 114, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .snippet-wrap .snippet-hide {
   position: absolute;
   top: 10px;
@@ -391,23 +400,23 @@ footer {
   bottom: 10px;
 }
 
-/* line 125, sass/_snippet_theme.sass */
+/* line 125, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 *:first-child + html .snippet-wrap .snippet-hide, * html .snippet-wrap .snippet-hide {
   bottom: 25px;
 }
 
-/* line 129, sass/_snippet_theme.sass */
+/* line 129, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .snippet-wrap .snippet-menu pre, .snippet-wrap .snippet-hide pre {
   background-color: transparent;
   margin: 0;
   padding: 0;
 }
-/* line 133, sass/_snippet_theme.sass */
+/* line 133, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .snippet-wrap .snippet-menu a, .snippet-wrap .snippet-hide a {
   padding: 0 5px;
   text-decoration: underline;
 }
-/* line 137, sass/_snippet_theme.sass */
+/* line 137, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .snippet-wrap pre.sh_sourceCode {
   padding: 0;
   line-height: 1.8em;
@@ -423,52 +432,52 @@ footer {
   -webkit-box-shadow: 2px 2px 5px black;
   margin: 10px 0;
 }
-/* line 147, sass/_snippet_theme.sass */
+/* line 147, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .snippet-wrap pre.snippet-textonly {
   padding: 2em;
 }
 
-/* line 151, sass/_snippet_theme.sass */
+/* line 151, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 *:first-child + html .snippet-wrap pre.snippet-formatted, * html .snippet-wrap pre.snippet-formatted {
   padding: 2em 1em;
 }
 
-/* line 154, sass/_snippet_theme.sass */
+/* line 154, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .snippet-reveal pre.sh_sourceCode {
   padding: 0.5em 1em;
   text-align: right;
 }
 
-/* line 159, sass/_snippet_theme.sass */
+/* line 159, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .snippet-wrap .snippet-num li {
   padding-left: 1.5em;
 }
-/* line 161, sass/_snippet_theme.sass */
+/* line 161, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .snippet-wrap .snippet-no-num {
   list-style: none;
   padding: 0.6em 1em;
   margin: 0;
 }
-/* line 165, sass/_snippet_theme.sass */
+/* line 165, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .snippet-wrap .snippet-no-num li {
   list-style: none;
   padding-left: 0;
 }
-/* line 168, sass/_snippet_theme.sass */
+/* line 168, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .snippet-wrap .snippet-num {
   margin: 1em 0 1em 1em;
   padding-left: 3em;
 }
-/* line 171, sass/_snippet_theme.sass */
+/* line 171, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .snippet-wrap .snippet-num li {
   list-style: decimal-leading-zero outside none;
 }
-/* line 173, sass/_snippet_theme.sass */
+/* line 173, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .snippet-wrap .snippet-no-num li.box {
   padding: 0 6px;
   margin-left: -6px;
 }
-/* line 176, sass/_snippet_theme.sass */
+/* line 176, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .snippet-wrap .snippet-num li.box {
   border: 1px solid;
   list-style-position: inside;
@@ -476,39 +485,39 @@ footer {
   padding-left: 6px;
 }
 
-/* line 183, sass/_snippet_theme.sass */
+/* line 183, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 *:first-child + html .snippet-wrap .snippet-num li.box, * html .snippet-wrap .snippet-num li.box {
   margin-left: -2.4em;
 }
 
-/* line 188, sass/_snippet_theme.sass */
+/* line 188, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .snippet-wrap li.box-top {
   border-width: 1px 1px 0 !important;
 }
-/* line 190, sass/_snippet_theme.sass */
+/* line 190, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .snippet-wrap li.box-bot {
   border-width: 0 1px 1px !important;
 }
-/* line 192, sass/_snippet_theme.sass */
+/* line 192, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .snippet-wrap li.box-mid {
   border-width: 0 1px !important;
 }
-/* line 194, sass/_snippet_theme.sass */
+/* line 194, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .snippet-wrap .snippet-num li .box-sp {
   width: 18px;
   display: inline-block;
 }
 
-/* line 199, sass/_snippet_theme.sass */
+/* line 199, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 *:first-child + html .snippet-wrap .snippet-num li .box-sp, * html .snippet-wrap .snippet-num li .box-sp {
   width: 27px;
 }
 
-/* line 203, sass/_snippet_theme.sass */
+/* line 203, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .snippet-wrap .snippet-no-num li.box {
   border: 1px solid;
 }
-/* line 205, sass/_snippet_theme.sass */
+/* line 205, /Users/eumir/Projects/vimercises/stylesheets/sass/_snippet_theme.sass */
 .snippet-wrap .snippet-no-num li .box-sp {
   display: none;
 }
