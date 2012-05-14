@@ -20,42 +20,56 @@
       <nav role='navigation'>
         <ul>
           <li>
-            <a href='/'>About</a>
+            <a href='/about'>About</a>
           </li>
           <li>
             <a href='/exercises'>Exercises</a>
             <ul class='exercises'>
               
-                <li><a href="/exercises/basic">basic</a></li>
+                <li><a href="/vimercises/exercises/basic">basic</a></li>
               
-                <li><a href="/exercises/blocks">refactor</a></li>
+                <li><a href="/vimercises/exercises/blocks">refactor</a></li>
               
-                <li><a href="/exercises/format">format</a></li>
+                <li><a href="/vimercises/exercises/format">format</a></li>
               
-                <li><a href="/exercises/refactoring">refactoring</a></li>
+                <li><a href="/vimercises/exercises/refactoring">refactoring</a></li>
               
-                <li><a href="/exercises/search">search</a></li>
+                <li><a href="/vimercises/exercises/search">search</a></li>
               
-                <li><a href="/exercises/type">type</a></li>
+                <li><a href="/vimercises/exercises/type">type</a></li>
               
-                <li><a href="/exercises/underscore">underscore</a></li>
+                <li><a href="/vimercises/exercises/underscore">underscore</a></li>
               
-                <li><a href="/exercises/underscore2">underscore 2</a></li>
+                <li><a href="/vimercises/exercises/underscore2">underscore 2</a></li>
               
-                <li><a href="/exercises/words">words</a></li>
+                <li><a href="/vimercises/exercises/words">words</a></li>
               
             </ul>
           </li>
         </ul>
       </nav>
       <section id='main-content'>
-        <h3>underscore 2</h3>
-<pre><code>this_is_a_very_lngo_method_name</code></pre>
+        <h3>refactoring</h3>
+<pre><code>def some_method
+  foo + another_method
+end
 
-<p>Change <strong>&#8216;lngo&#8217;</strong> to <strong>&#8216;long&#8217;</strong>.</p>
+def another_method
+  bar
+end</code></pre>
+
+<p>Delete <em>another_method</em> and replace the method call (<em>another_method</em>) in some_method with the contents <em>atrb</em>.</p>
+
+<p>It should look like this:</p>
+
+<pre><code>def some_method
+  foo + bar
+end</code></pre>
+
+<p>No yanking of the text above!</p>
 <h5>
   <strong>Maximum: &nbsp;</strong>
-  <span class='stroke-count'>7</span>
+  <span class='stroke-count'>14</span>
   strokes
 </h5>
 

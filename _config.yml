@@ -1,1 +1,2 @@
-permalink: /exercises/:title
+permalink: /vimercises/exercises/:title
+exclude: *.haml
