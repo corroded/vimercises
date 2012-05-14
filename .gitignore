@@ -1,3 +1,4 @@
 *.sw[onp]
 .sass-cache
 .rvmrc
+**/*.haml
