@@ -26,36 +26,59 @@
             <a href='/exercises'>Exercises</a>
             <ul class='exercises'>
               
-                <li><a href="/vimercises/exercises/basic">basic</a></li>
+                <li><a href="/exercises/basic">basic</a></li>
               
-                <li><a href="/vimercises/exercises/blocks">refactor</a></li>
+                <li><a href="/exercises/blocks">refactor</a></li>
               
-                <li><a href="/vimercises/exercises/format">format</a></li>
+                <li><a href="/exercises/format">format</a></li>
               
-                <li><a href="/vimercises/exercises/refactoring">refactoring</a></li>
+                <li><a href="/exercises/refactoring">refactoring</a></li>
               
-                <li><a href="/vimercises/exercises/search">search</a></li>
+                <li><a href="/exercises/search">search</a></li>
               
-                <li><a href="/vimercises/exercises/type">type</a></li>
+                <li><a href="/exercises/type">type</a></li>
               
-                <li><a href="/vimercises/exercises/underscore">underscore</a></li>
+                <li><a href="/exercises/underscore">underscore</a></li>
               
-                <li><a href="/vimercises/exercises/underscore2">underscore 2</a></li>
+                <li><a href="/exercises/underscore2">underscore 2</a></li>
               
-                <li><a href="/vimercises/exercises/words">words</a></li>
+                <li><a href="/exercises/words">words</a></li>
               
             </ul>
           </li>
         </ul>
       </nav>
       <section id='main-content'>
-        <h3>underscore</h3>
-<pre><code>this_is_a_very_long_mtohed_name</code></pre>
+        <h3>refactor</h3>
+<pre><code>%tr
+  %td= raw(&quot;&lt;% line1_hello %&gt;&quot;)
+  %td= raw(&quot;&lt;% line2(world) %&gt;&quot;)
+  %td= raw(&quot;&lt;% line3_hello %&gt;&quot;)
+  %td= raw(&quot;&lt;% line4 %&gt;&quot;)
+  %td= raw(&quot;&lt;% line5_(world) %&gt;&quot;)
 
-<p>Change <strong>&#8216;mtohed&#8217;</strong> to <strong>&#8216;method&#8217;</strong>.</p>
+&lt;tr&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;</code></pre>
+
+<p>Refactor this by putting the strings inside the quotes inside the <code>&lt;td&gt;</code> tags like so:</p>
+
+<pre><code>&lt;tr&gt;
+  &lt;td&gt;&lt;% line1_hello %&gt;  &lt;/td&gt;
+  &lt;td&gt;&lt;% line2(world) %&gt; &lt;/td&gt;
+  &lt;td&gt;&lt;% line3_hello %&gt;  &lt;/td&gt;
+  &lt;td&gt;&lt;% line4 %&gt;        &lt;/td&gt;
+  &lt;td&gt;&lt;% line5_(world) %&gt;&lt;/td&gt;
+&lt;/tr&gt;</code></pre>
+
+<p><em>Don&#8217;t yank and paste the example.</em></p>
 <h5>
   <strong>Maximum: &nbsp;</strong>
-  <span class='stroke-count'>10</span>
+  <span class='stroke-count'>27</span>
   strokes
 </h5>
 
