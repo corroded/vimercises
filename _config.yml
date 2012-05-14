@@ -1,2 +1,3 @@
 permalink: /exercises/:title
+baseurl: /vimercises/
 exclude: *.haml
