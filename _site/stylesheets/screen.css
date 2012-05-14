@@ -1,0 +1,512 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../.rvm/gems/ruby-1.9.2-p290@vimercises/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 17, stylesheets/sass/screen.sass */
+body {
+  padding: 50px;
+  font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  background: #1a1a1a;
+  color: #ddb160;
+}
+
+/* line 24, stylesheets/sass/screen.sass */
+h1, h2, h3, h4, h5, h6 {
+  color: #eeeeee;
+  margin: 0 0 20px;
+}
+
+/* line 28, stylesheets/sass/screen.sass */
+h1, h2, h3 {
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+/* line 33, stylesheets/sass/screen.sass */
+h1 {
+  font-size: 2em;
+}
+
+/* line 37, stylesheets/sass/screen.sass */
+h2 {
+  color: #dddddd;
+  font-size: 1.5em;
+}
+
+/* line 42, stylesheets/sass/screen.sass */
+h3 {
+  color: #cccccc;
+  font-size: 1.2em;
+  text-transform: capitalize;
+}
+
+/* line 49, stylesheets/sass/screen.sass */
+h3, h4, h5, h6 {
+  color: #cccccc;
+}
+
+/* line 52, stylesheets/sass/screen.sass */
+p {
+  margin: 10px 0;
+}
+/* line 55, stylesheets/sass/screen.sass */
+p code {
+  border: 1px solid #cccccc;
+  padding: 0 5px;
+  background: #eeeeee;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  font-family: "Anonymous Pro", monospace;
+}
+
+/* line 63, stylesheets/sass/screen.sass */
+em {
+  font-style: italic;
+}
+
+/* line 67, stylesheets/sass/screen.sass */
+strong {
+  color: #a93d2e;
+  font-weight: bold;
+}
+
+/* line 72, stylesheets/sass/screen.sass */
+a {
+  color: #618bae;
+  text-decoration: none;
+}
+/* line 76, stylesheets/sass/screen.sass */
+a:hover {
+  color: #83a4bf;
+}
+
+/* line 79, stylesheets/sass/screen.sass */
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+/* line 1, stylesheets/sass/_header.sass */
+header {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 940px;
+}
+
+/* line 1, stylesheets/sass/_nav.sass */
+nav {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 220px;
+  min-height: 400px;
+}
+/* line 7, stylesheets/sass/_nav.sass */
+nav ul > li a {
+  display: block;
+  padding: 5px;
+}
+/* line 11, stylesheets/sass/_nav.sass */
+nav ul > li a:hover {
+  background: #343434;
+}
+/* line 14, stylesheets/sass/_nav.sass */
+nav ul > li .exercises {
+  margin-left: 1em;
+}
+/* line 17, stylesheets/sass/_nav.sass */
+nav ul > li .exercises li {
+  list-style-position: inside;
+  list-style-type: square;
+}
+
+/* line 1, sass/_main.sass */
+#main-content {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 700px;
+}
+/* line 5, sass/_main.sass */
+#main-content pre code {
+  font-family: "Anonymous Pro", monospace;
+}
+
+/* line 1, sass/_footer.sass */
+footer {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 700px;
+}
+
+/*---------- acid Styles --------- */
+/* line 3, sass/_snippet_theme.sass */
+.sh_acid {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+/* line 8, sass/_snippet_theme.sass */
+.sh_acid .sh_sourceCode {
+  background-color: #eeeeee;
+  color: black;
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 13, sass/_snippet_theme.sass */
+.sh_acid .sh_sourceCode .sh_keyword {
+  color: #bb7977;
+  font-weight: bold;
+  font-style: normal;
+}
+/* line 17, sass/_snippet_theme.sass */
+.sh_acid .sh_sourceCode .sh_type {
+  color: #8080c0;
+  font-weight: bold;
+  font-style: normal;
+}
+/* line 21, sass/_snippet_theme.sass */
+.sh_acid .sh_sourceCode .sh_string, .sh_acid .sh_sourceCode .sh_regexp {
+  color: #a68500;
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 25, sass/_snippet_theme.sass */
+.sh_acid .sh_sourceCode .sh_specialchar {
+  color: fuchsia;
+  font-weight: bold;
+  font-style: normal;
+}
+/* line 29, sass/_snippet_theme.sass */
+.sh_acid .sh_sourceCode .sh_comment {
+  color: #ff8000;
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 33, sass/_snippet_theme.sass */
+.sh_acid .sh_sourceCode .sh_number {
+  color: purple;
+  font-weight: bold;
+  font-style: normal;
+}
+/* line 37, sass/_snippet_theme.sass */
+.sh_acid .sh_sourceCode .sh_preproc {
+  color: #0080c0;
+  font-weight: bold;
+  font-style: normal;
+}
+/* line 41, sass/_snippet_theme.sass */
+.sh_acid .sh_sourceCode .sh_symbol {
+  color: #ff0080;
+  font-weight: bold;
+  font-style: normal;
+}
+/* line 45, sass/_snippet_theme.sass */
+.sh_acid .sh_sourceCode .sh_function {
+  color: #004466;
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 49, sass/_snippet_theme.sass */
+.sh_acid .sh_sourceCode .sh_cbracket {
+  color: #ff0080;
+  font-weight: bold;
+  font-style: normal;
+}
+/* line 53, sass/_snippet_theme.sass */
+.sh_acid .sh_sourceCode .sh_url {
+  color: #a68500;
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 57, sass/_snippet_theme.sass */
+.sh_acid .sh_sourceCode .sh_date, .sh_acid .sh_sourceCode .sh_time, .sh_acid .sh_sourceCode .sh_file {
+  color: #bb7977;
+  font-weight: bold;
+  font-style: normal;
+}
+/* line 61, sass/_snippet_theme.sass */
+.sh_acid .sh_sourceCode .sh_ip, .sh_acid .sh_sourceCode .sh_name {
+  color: #a68500;
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 65, sass/_snippet_theme.sass */
+.sh_acid .sh_sourceCode .sh_variable {
+  color: #0080c0;
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 69, sass/_snippet_theme.sass */
+.sh_acid .sh_sourceCode .sh_oldfile {
+  color: fuchsia;
+  font-weight: bold;
+  font-style: normal;
+}
+/* line 73, sass/_snippet_theme.sass */
+.sh_acid .sh_sourceCode .sh_newfile {
+  color: #a68500;
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 77, sass/_snippet_theme.sass */
+.sh_acid .sh_sourceCode .sh_difflines {
+  color: #bb7977;
+  font-weight: bold;
+  font-style: normal;
+}
+/* line 81, sass/_snippet_theme.sass */
+.sh_acid .sh_sourceCode .sh_selector {
+  color: #0080c0;
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 85, sass/_snippet_theme.sass */
+.sh_acid .sh_sourceCode .sh_property {
+  color: #bb7977;
+  font-weight: bold;
+  font-style: normal;
+}
+/* line 89, sass/_snippet_theme.sass */
+.sh_acid .sh_sourceCode .sh_value {
+  color: #a68500;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*-------- Snippet Base Styles ---------- */
+/* line 96, sass/_snippet_theme.sass */
+.snippet-wrap {
+  position: relative;
+}
+
+/* line 100, sass/_snippet_theme.sass */
+*:first-child + html .snippet-wrap, * html .snippet-wrap {
+  display: inline-block;
+}
+
+/* line 103, sass/_snippet_theme.sass */
+.snippet-reveal {
+  text-decoration: underline;
+}
+
+/* line 107, sass/_snippet_theme.sass */
+.snippet-wrap .snippet-menu {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 0.9em;
+  z-index: 1;
+  background-color: transparent;
+}
+/* line 114, sass/_snippet_theme.sass */
+.snippet-wrap .snippet-hide {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 0.9em;
+  z-index: 1;
+  background-color: transparent;
+  top: auto;
+  bottom: 10px;
+}
+
+/* line 125, sass/_snippet_theme.sass */
+*:first-child + html .snippet-wrap .snippet-hide, * html .snippet-wrap .snippet-hide {
+  bottom: 25px;
+}
+
+/* line 129, sass/_snippet_theme.sass */
+.snippet-wrap .snippet-menu pre, .snippet-wrap .snippet-hide pre {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+/* line 133, sass/_snippet_theme.sass */
+.snippet-wrap .snippet-menu a, .snippet-wrap .snippet-hide a {
+  padding: 0 5px;
+  text-decoration: underline;
+}
+/* line 137, sass/_snippet_theme.sass */
+.snippet-wrap pre.sh_sourceCode {
+  padding: 0;
+  line-height: 1.8em;
+  overflow: auto;
+  position: relative;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px black;
+  -moz-box-shadow: 2px 2px 5px black;
+  -webkit-box-shadow: 2px 2px 5px black;
+  margin: 10px 0;
+}
+/* line 147, sass/_snippet_theme.sass */
+.snippet-wrap pre.snippet-textonly {
+  padding: 2em;
+}
+
+/* line 151, sass/_snippet_theme.sass */
+*:first-child + html .snippet-wrap pre.snippet-formatted, * html .snippet-wrap pre.snippet-formatted {
+  padding: 2em 1em;
+}
+
+/* line 154, sass/_snippet_theme.sass */
+.snippet-reveal pre.sh_sourceCode {
+  padding: 0.5em 1em;
+  text-align: right;
+}
+
+/* line 159, sass/_snippet_theme.sass */
+.snippet-wrap .snippet-num li {
+  padding-left: 1.5em;
+}
+/* line 161, sass/_snippet_theme.sass */
+.snippet-wrap .snippet-no-num {
+  list-style: none;
+  padding: 0.6em 1em;
+  margin: 0;
+}
+/* line 165, sass/_snippet_theme.sass */
+.snippet-wrap .snippet-no-num li {
+  list-style: none;
+  padding-left: 0;
+}
+/* line 168, sass/_snippet_theme.sass */
+.snippet-wrap .snippet-num {
+  margin: 1em 0 1em 1em;
+  padding-left: 3em;
+}
+/* line 171, sass/_snippet_theme.sass */
+.snippet-wrap .snippet-num li {
+  list-style: decimal-leading-zero outside none;
+}
+/* line 173, sass/_snippet_theme.sass */
+.snippet-wrap .snippet-no-num li.box {
+  padding: 0 6px;
+  margin-left: -6px;
+}
+/* line 176, sass/_snippet_theme.sass */
+.snippet-wrap .snippet-num li.box {
+  border: 1px solid;
+  list-style-position: inside;
+  margin-left: -3em;
+  padding-left: 6px;
+}
+
+/* line 183, sass/_snippet_theme.sass */
+*:first-child + html .snippet-wrap .snippet-num li.box, * html .snippet-wrap .snippet-num li.box {
+  margin-left: -2.4em;
+}
+
+/* line 188, sass/_snippet_theme.sass */
+.snippet-wrap li.box-top {
+  border-width: 1px 1px 0 !important;
+}
+/* line 190, sass/_snippet_theme.sass */
+.snippet-wrap li.box-bot {
+  border-width: 0 1px 1px !important;
+}
+/* line 192, sass/_snippet_theme.sass */
+.snippet-wrap li.box-mid {
+  border-width: 0 1px !important;
+}
+/* line 194, sass/_snippet_theme.sass */
+.snippet-wrap .snippet-num li .box-sp {
+  width: 18px;
+  display: inline-block;
+}
+
+/* line 199, sass/_snippet_theme.sass */
+*:first-child + html .snippet-wrap .snippet-num li .box-sp, * html .snippet-wrap .snippet-num li .box-sp {
+  width: 27px;
+}
+
+/* line 203, sass/_snippet_theme.sass */
+.snippet-wrap .snippet-no-num li.box {
+  border: 1px solid;
+}
+/* line 205, sass/_snippet_theme.sass */
+.snippet-wrap .snippet-no-num li .box-sp {
+  display: none;
+}
