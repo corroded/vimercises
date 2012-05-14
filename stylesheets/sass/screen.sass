@@ -11,6 +11,7 @@
 $background_color: #1a1a1a
 $main_color: #ddb160
 $link_color: #618bae
+$highlight_color: #485269
 
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700)
 
@@ -55,11 +56,11 @@ p
   code
     border: 1px solid #ccc
     padding: 0 5px
-    background: #eee
+    background: $highlight_color
     +border-radius(3px)
     font:
       family: 'Anonymous Pro', monospace
-    color: #9db156
+    color: #fff
 
 em
   font:
