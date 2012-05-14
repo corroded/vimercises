@@ -20,3 +20,18 @@ task :pre_compile do
   end
   puts "HAML files compiled!\n\n"
 end
+
+# TODO: Add an auto start for jekyll to compile
+task :deploy do
+  Rake::Task["pre_compile"].execute
+
+  puts "Adding all files in git"
+  `git add .`
+  puts "Adding deleted files"
+  `git add -u .`
+  puts "Add a commit message..."
+  `git commit`
+  puts "Pushing..."
+  `git push origin gh-pages`
+  puts "Deploy done!"
+end

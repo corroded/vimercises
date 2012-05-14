@@ -5,10 +5,10 @@
     <title>Vimercises by corroded</title>
     <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css' />
     <link href='http://fonts.googleapis.com/css?family=Anonymous+Pro' rel='stylesheet' type='text/css' />
-    <link href='{{ site.url }}/stylesheets/screen.css' media='screen, projection' rel='stylesheet' type='text/css' />
-    <link href='http://corroded.github.com/vimercises/stylesheets/print.css' media='print' rel='stylesheet' type='text/css' />
+    <link href='{{ site.url }}stylesheets/screen.css' media='screen, projection' rel='stylesheet' type='text/css' />
+    <link href='{{ site.url }}stylesheets/print.css' media='print' rel='stylesheet' type='text/css' />
     <!--[if IE]>
-      <link href="http://corroded.github.com/vimercises/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+      <link href="{{ site.url }}stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <![endif]-->
     <title>Test</title>
   </head>
@@ -20,13 +20,13 @@
       <nav role='navigation'>
         <ul>
           <li>
-            <a href='/about'>About</a>
+            <a href='{{ site.url }}about'>About</a>
           </li>
           <li>
-            <a href='/exercises'>Exercises</a>
+            <a href='{{ site.url }}exercises'>Exercises</a>
             <ul class='exercises'>
               {% for exercise in site.posts %}
-                <li><a href="{{ exercise.url }}">{{ exercise.title }}</a></li>
+                <li><a href="{{ site.url }}{{ exercise.url }}">{{ exercise.title }}</a></li>
               {% endfor %}
             </ul>
           </li>
@@ -42,8 +42,8 @@
         </p>
       </footer>
     </section>
-    <script src='http://corroded.github.com/vimercises/javascripts/jquery-1.7.2.min.js' type='text/javascript'></script>
-    <script src='http://corroded.github.com/vimercises/javascripts/jquery.snippet.min.js' type='text/javascript'></script>
-    <script src='http://corroded.github.com/vimercises/javascripts/exercises.js' type='text/javascript'></script>
+    <script src='{{ site.url }}javascripts/jquery-1.7.2.min.js' type='text/javascript'></script>
+    <script src='{{ site.url }}javascripts/jquery.snippet.min.js' type='text/javascript'></script>
+    <script src='{{ site.url }}javascripts/exercises.js' type='text/javascript'></script>
   </body>
 </html>
