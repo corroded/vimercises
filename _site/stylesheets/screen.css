@@ -68,7 +68,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 17, sass/screen.sass */
+/* line 18, stylesheets/sass/screen.sass */
 body {
   padding: 50px;
   font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -77,81 +77,81 @@ body {
   color: #ddb160;
 }
 
-/* line 24, sass/screen.sass */
+/* line 25, stylesheets/sass/screen.sass */
 h1, h2, h3, h4, h5, h6 {
   color: #eeeeee;
   margin: 0 0 20px;
 }
 
-/* line 28, sass/screen.sass */
+/* line 29, stylesheets/sass/screen.sass */
 h1, h2, h3 {
   line-height: 1.1;
   font-weight: bold;
 }
 
-/* line 33, sass/screen.sass */
+/* line 34, stylesheets/sass/screen.sass */
 h1 {
   font-size: 2em;
 }
 
-/* line 37, sass/screen.sass */
+/* line 38, stylesheets/sass/screen.sass */
 h2 {
   color: #dddddd;
   font-size: 1.5em;
 }
 
-/* line 42, sass/screen.sass */
+/* line 43, stylesheets/sass/screen.sass */
 h3 {
   color: #cccccc;
   font-size: 1.2em;
   text-transform: capitalize;
 }
 
-/* line 49, sass/screen.sass */
+/* line 50, stylesheets/sass/screen.sass */
 h3, h4, h5, h6 {
   color: #cccccc;
 }
 
-/* line 52, sass/screen.sass */
+/* line 53, stylesheets/sass/screen.sass */
 p {
   margin: 10px 0;
 }
-/* line 55, sass/screen.sass */
+/* line 56, stylesheets/sass/screen.sass */
 p code {
   border: 1px solid #cccccc;
   padding: 0 5px;
-  background: #eeeeee;
+  background: #485269;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   border-radius: 3px;
   font-family: "Anonymous Pro", monospace;
-  color: #9db156;
+  color: white;
 }
 
-/* line 64, sass/screen.sass */
+/* line 65, stylesheets/sass/screen.sass */
 em {
   font-style: italic;
 }
 
-/* line 68, sass/screen.sass */
+/* line 69, stylesheets/sass/screen.sass */
 strong {
   color: #a93d2e;
   font-weight: bold;
 }
 
-/* line 73, sass/screen.sass */
+/* line 74, stylesheets/sass/screen.sass */
 a {
   color: #618bae;
   text-decoration: none;
 }
-/* line 77, sass/screen.sass */
+/* line 78, stylesheets/sass/screen.sass */
 a:hover {
   color: #83a4bf;
 }
 
-/* line 80, sass/screen.sass */
+/* line 81, stylesheets/sass/screen.sass */
 #container {
   margin-left: auto;
   margin-right: auto;
@@ -214,7 +214,8 @@ footer {
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 700px;
+  width: 940px;
+  text-align: center;
 }
 
 /*---------- acid Styles --------- */
