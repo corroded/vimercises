@@ -16,6 +16,9 @@
     <section id='container'>
       <header>
         <h1>Vimercises by corroded</h1>
+        <a href='https://github.com/corroded'>
+          <img alt='Fork me on GitHub' src='https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png' style='position: absolute; top: 0; right: 0; border: 0;' />
+        </a>
       </header>
       <nav role='navigation'>
         <ul>
@@ -26,7 +29,9 @@
             <a href='{{ site.url }}exercises'>Exercises</a>
             <ul class='exercises'>
               {% for exercise in site.posts %}
-                <li><a href="{{ site.url }}{{ exercise.url }}">{{ exercise.title }}</a></li>
+              <li>
+                <a href='{{ site.url }}{{ exercise.url }}'>{{ exercise.title }}</a>
+              </li>
               {% endfor %}
             </ul>
           </li>
