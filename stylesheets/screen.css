@@ -522,3 +522,8 @@ footer {
 .snippet-wrap .snippet-no-num li .box-sp {
   display: none;
 }
+
+/* line 1, sass/_exercises.sass */
+.solution {
+  color: #1a1a1a;
+}
