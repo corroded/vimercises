@@ -522,12 +522,3 @@ footer {
 .snippet-wrap .snippet-no-num li .box-sp {
   display: none;
 }
-
-/* line 1, sass/_exercises.sass */
-.solution {
-  display: none;
-}
-/* line 4, sass/_exercises.sass */
-.solution:hover {
-  display: inline;
-}
