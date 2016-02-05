@@ -1,8 +1,8 @@
 ---
 layout: exercise_layout
-stroke_count: 10
+stroke_count: 9
 title: underscore
-solution: /m(enter)Rmetho(esc)
+solution: fmRmetho(esc)
 ---
 
     this_is_a_very_long_mtohed_name
