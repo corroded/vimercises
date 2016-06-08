@@ -1,8 +1,8 @@
 ---
 layout: exercise_layout
-stroke_count: 9
+stroke_count: 8
 title: underscore
-solution: fmRmetho(esc)
+solution: ftRetho<Esc> (by Denton Liu)
 ---
 
     this_is_a_very_long_mtohed_name

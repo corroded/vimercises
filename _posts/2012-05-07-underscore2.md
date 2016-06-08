@@ -1,8 +1,8 @@
 ---
 layout: exercise_layout
-stroke_count: 7
+stroke_count: 6
 title: underscore 2
-solution: /o(enter)x3hp
+solution: fox3hp (by Denton Liu)
 ---
 
     this_is_a_very_lngo_method_name
