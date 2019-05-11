@@ -1,8 +1,8 @@
 ---
 layout: exercise_layout
-stroke_count: 6
+stroke_count: 5
 title: underscore 2
-solution: fox3hp (by Denton Liu)
+solution: fn2xp (by @keevan)
 ---
 
     this_is_a_very_lngo_method_name
